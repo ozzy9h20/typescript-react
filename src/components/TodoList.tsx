@@ -1,10 +1,5 @@
-interface Item {
-  id: string
-  text: string
-}
-
 interface TodoListProps {
-  items: Item[]
+  items: Todo[]
 }
 
 const TodoList: React.FC<TodoListProps> = ({ items }) => {
